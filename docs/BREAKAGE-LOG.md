@@ -42,3 +42,13 @@ bloch at the week's close (the log is the input, bloch is the record).
   latch seconds + terms ridden). There is no mid-term save; a term is
   one sitting. Recorded here rather than silently narrowing
   R-202/R-203.
+- **B-8: menu/end-screen text clipped in the raster (post-tag fix).**
+  The estate-wide raster-advance audit (Exposure B-4) flagged 28
+  lines here — the gate sub-lines, title subtitle, the whole contract
+  page, two captions, and the record lines — all set at sizes whose
+  raster advance (which doubles at size >= 21) runs past the edge of
+  the rendered surface. The browser's real font fits them; the
+  preview videos are the deliverable that clips. Fix: long lines at
+  size 19–20, end titles at 44; audit CLEAN on all screens; previews
+  re-captured. Fix commit on top of v1.0.0 before any push; the tag
+  moves with it.

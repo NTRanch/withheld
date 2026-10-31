@@ -1091,7 +1091,7 @@ impl Game {
         w.text(360, 880, self.text_size(26), palette::PINK, ride.as_str());
         // Caption: her state, reported.
         if self.caption_ms > 0 {
-            w.text(120, 845, self.text_size(22), palette::ROSE, self.caption);
+            w.text(120, 845, self.text_size(20), palette::ROSE, self.caption);
         }
         // Controls hint, on its own row so it never meets the ride line.
         w.text(
@@ -1115,28 +1115,28 @@ impl Game {
         w.text(
             240,
             410,
-            self.text_size(22),
+            self.text_size(19),
             palette::MAUVE,
             "AN ADULT GAME OF DENIAL, BY NICE THOUGHTS RANCH.",
         );
         w.text(
             240,
             445,
-            self.text_size(22),
+            self.text_size(19),
             palette::MAUVE,
             "EDGING AND ORGASM CONTROL, PRESENTED AS A CONTROL SYSTEM.",
         );
         w.text(
             240,
             480,
-            self.text_size(22),
+            self.text_size(19),
             palette::MAUVE,
             "EVERYTHING IS ABSTRACT AND SYMBOLIC. NO ONE IS REAL.",
         );
         w.text(
             240,
             560,
-            self.text_size(24),
+            self.text_size(20),
             palette::GOLD,
             "PRESS ENTER OR TAP TO CONFIRM YOU ARE 18+",
         );
@@ -1148,7 +1148,7 @@ impl Game {
         w.text(
             240,
             225,
-            self.text_size(24),
+            self.text_size(20),
             palette::MAUVE,
             "HER GOVERNOR GAME - RIDE THE LINE, NEVER TRIP IT",
         );
@@ -1229,7 +1229,7 @@ impl Game {
             w.text(
                 120,
                 200 + i as i32 * 44,
-                self.text_size(24),
+                self.text_size(20),
                 palette::PAPER,
                 line,
             );
@@ -1311,14 +1311,14 @@ impl Game {
             w.text(
                 180,
                 240,
-                self.text_size(52),
+                self.text_size(44),
                 palette::PINK,
                 "THE TERM IS SERVED",
             );
             w.text(
                 180,
                 320,
-                self.text_size(26),
+                self.text_size(20),
                 palette::PAPER,
                 "RIDDEN OUT, UNDER THE WALL, ON HER TERMS.",
             );
@@ -1326,14 +1326,14 @@ impl Game {
             w.text(
                 180,
                 240,
-                self.text_size(52),
+                self.text_size(44),
                 palette::PAPER,
                 "THE TERM WAS SERVED",
             );
             w.text(
                 180,
                 320,
-                self.text_size(26),
+                self.text_size(20),
                 palette::MAUVE,
                 "BY THE CLOCK. THE LINE IS STILL THERE TOMORROW.",
             );
@@ -1341,21 +1341,21 @@ impl Game {
         let mut b1 = StrBuf::new();
         b1.push_str("TERM: ");
         b1.push_str(lvl.name);
-        w.text(180, 420, self.text_size(24), palette::PAPER, b1.as_str());
+        w.text(180, 420, self.text_size(20), palette::PAPER, b1.as_str());
         let mut b2 = StrBuf::new();
         b2.push_str("THE BOOK: ");
         b2.push_u32(self.trips);
         b2.push_str(" TRIPS - ");
         b2.push_tenths_ms(self.term_added_ms);
         b2.push_str(" S OF LATCH ADDED");
-        w.text(180, 470, self.text_size(24), palette::GOLD, b2.as_str());
+        w.text(180, 470, self.text_size(20), palette::GOLD, b2.as_str());
         let mut b3 = StrBuf::new();
         b3.push_str("RIDDEN ");
         b3.push_tenths_ms(self.ride_ms);
         b3.push_str(" OF ");
         b3.push_tenths_ms(lvl.ride_needed_ms);
         b3.push_str(" S");
-        w.text(180, 520, self.text_size(24), palette::PAPER, b3.as_str());
+        w.text(180, 520, self.text_size(20), palette::PAPER, b3.as_str());
         w.text(
             180,
             640,

@@ -1,3 +1,5 @@
+> **Game page:** the full storefront page for this game lives at [docs/GAME-PAGE.md](docs/GAME-PAGE.md).
+
 # Withheld
 
 **Nice Thoughts Ranch** · Torogao Jam Program week 11 (Wave C — Mini-games: the Crescendo set) · Yui · **Rust**

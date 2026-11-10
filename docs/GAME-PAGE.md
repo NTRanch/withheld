@@ -15,7 +15,7 @@ All characters depicted are adults.
 
 ## An edging mini-game where you hold a rising drive just under a fixed wall without tripping it.
 
-<p align="center"><a href="https://github.com/NTRanch/withheld">GitHub</a> · <a href="https://github.com/NTRanch/withheld/blob/main/LICENSE.md">License</a> · <a href="https://ntranch.itch.io">itch.io studio page</a></p>
+<p align="center"><a href="https://github.com/NTRanch/withheld">GitHub</a> · <a href="https://github.com/NTRanch/withheld/blob/main/LICENSE.md">License</a> · <a href="https://ntranch.itch.io">itch.io studio page</a> · <a href="https://github.com/NTRanch/withheld/releases/tag/v1.0.0">Release</a></p>
 
 ![Withheld header](../assets/brand/header.png)
 
